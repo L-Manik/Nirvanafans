@@ -1,3 +1,88 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
-<a href="/testRoute">Go to testRoute</a>
+<!-- opening part -->
+<div class="readable-area">
+    <a class="header" href="./photo.html">
+      <div class="header-text">
+        <h1 class="name"> Squarepants, Spongebob </h1>
+        <p class="role"> Head Chef </p>
+      </div>
+      <img
+        src="https://assets.nick.com/uri/mgid:arc:imageassetref:nick.com:a625d441-bbbf-42c8-9927-6a0157aac911?quality=0.7"
+        alt="Spongebob Profile">
+    </a>
+    <!-- first container -->
+    <div class="content">
+      <div class="content-column">
+        <div class="section-title">
+          <i class="fa-solid fa-user title-icon"></i>
+          Profile
+        </div>
+        <p>LOREM IPSUM</p>
+        <div class="section-title">
+          <i class="fa-solid fa-book title-icon"></i>
+          Education
+        </div>
+        <ul>
+          <li>
+            <span>2011 - 2014</span>
+            <span class="place">Bikini Bottom High School</span>
+          </li>
+          <li>
+            <span>2011 - 2014</span>
+            <span class="place">Bikini Bottom High School</span>
+          </li>
+        </ul>
+      </div>
+      <div class="content-column">
+        <div class="section-title">
+          <i class="fa-solid fa-user title-icon"></i>
+          Education
+        </div>
+        <ul>
+          <li>
+            <span>2011 - 2014</span>
+            <span class="place">Bikini Bottom High School</span>
+          </li>
+          <li>
+            <span>2011 - 2014</span>
+            <span class="place">Bikini Bottom High School</span>
+          </li>
+        </ul>
+        <div class="section-title">
+          <i class="fa-solid fa-wand-sparkles title-icon"></i>
+          Skills
+        </div>
+        <ul>
+          <li class="skill">
+            <span class="skill-title">Jellyfish Hunting</span>
+            <div class="gauge">
+              <div class="bullet filled-bullet"></div>
+              <div class="bullet filled-bullet"></div>
+              <div class="bullet filled-bullet"></div>
+              <div class="bullet"></div>
+              <div class="bullet"></div>
+            </div>
+          </li>
+          <li class="skill">
+            <span class="skill-title">Whale Singing</span>
+            <div class="gauge">
+              <div class="bullet filled-bullet"></div>
+              <div class="bullet filled-bullet"></div>
+              <div class="bullet"></div>
+              <div class="bullet"></div>
+              <div class="bullet"></div>
+            </div>
+          </li>
+          <li class="skill">
+            <span class="skill-title">Burger Flipping</span>
+            <div class="gauge">
+              <div class="bullet filled-bullet"></div>
+              <div class="bullet filled-bullet"></div>
+              <div class="bullet filled-bullet"></div>
+              <div class="bullet filled-bullet"></div>
+              <div class="bullet filled-bullet"></div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
