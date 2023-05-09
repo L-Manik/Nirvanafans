@@ -21,11 +21,10 @@
 	</a>
 	<!-- first container -->
 	<div class="content">
-		<div class="content-column">
-			<Section iconData={user} title="Profile">
+		<Section iconData={user} title="Profile">
 				<p>LOREM IPSUN FOR THE WIN</p>
-			</Section>
-			<Section iconData={book} title="Education">
+		</Section>
+		<Section iconData={book} title="Education">
 				<ul>
 				<li>
 					<span>2011 - 2014</span>
@@ -36,10 +35,8 @@
 					<span class="place">McGuy University</span>
 				</li>
 				</ul>
-			</Section>
-		</div>
-		<div class="content-column">
-			<Section iconData={briefcase} title="Job Experience">
+		</Section>
+		<Section iconData={briefcase} title="Job Experience">
 				<ul>
 					<li>
 						<span>Burger Flipper (2017 - 2018)</span>
@@ -50,8 +47,8 @@
 						<span class="place">Chum Bucket</span>
 					</li>
 				</ul>
-			</Section>
-			<Section iconData={cogs} title="Skills">
+		</Section>
+		<Section iconData={cogs} title="Skills">
 				<ul>
 					<li class="skill">
 						<span class="skill-title">Jellyfish Hunting</span>
@@ -84,8 +81,7 @@
 						</div>
 					</li>
 				</ul>
-			</Section>
-		</div>
+		</Section>
 	</div>
 </div>
 
@@ -131,14 +127,10 @@
 
 	/* container */
 	.content {
-		display: flex;
-		flex-direction: row;
-	}
-
-	.content-column {
-		flex: 1;
-		padding: 0px 16px 16px 16px;
-		background-color: white;
+		display: grid;
+		grid-template-columns: repeat(2, minmax(0, 1fr));
+		gap: 2rem;
+		padding: 2rem;
 	}
 
 	.title-icon {
@@ -200,7 +192,7 @@
 		}
 
 		.content {
-			flex-direction: column;
+			grid-template-columns: repeat(1, minmax(0, 1fr))
 		}
 	}
 </style>
