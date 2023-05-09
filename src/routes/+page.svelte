@@ -1,9 +1,10 @@
 <script lang="ts">
-	import Icon from "svelte-awesome";
 	import book from 'svelte-awesome/icons/book';
 	import user from 'svelte-awesome/icons/user';
 	import briefcase from 'svelte-awesome/icons/briefcase';
 	import cogs from "svelte-awesome/icons/cogs";
+	
+	import Section from "$components/Section.svelte";
 </script>
 
 <!-- opening part -->
@@ -21,16 +22,11 @@
 	<!-- first container -->
 	<div class="content">
 		<div class="content-column">
-			<div class="section-title">
-				<Icon data={user} />
-				Profile
-			</div>
-			<p>LOREM IPSUM</p>
-			<div class="section-title">
-				<Icon data={book} />
-				Education
-			</div>
-			<ul>
+			<Section iconData={user} title="Profile">
+				<p>LOREM IPSUN FOR THE WIN</p>
+			</Section>
+			<Section iconData={book} title="Education">
+				<ul>
 				<li>
 					<span>2011 - 2014</span>
 					<span class="place">Bikini Bottom High School</span>
@@ -39,59 +35,56 @@
 					<span>2014 - 2016</span>
 					<span class="place">McGuy University</span>
 				</li>
-			</ul>
+				</ul>
+			</Section>
 		</div>
 		<div class="content-column">
-			<div class="section-title">
-				<Icon data={briefcase} />
-				Job Experience
-			</div>
-			<ul>
-				<li>
-					<span>Burger Flipper (2017 - 2018)</span>
-					<span class="place">Krusty Krab</span>
-				</li>
-				<li>
-					<span>Ministry of Defense (2018 - 2020)</span>
-					<span class="place">Chum Bucket</span>
-				</li>
-			</ul>
-			<div class="section-title">
-				<Icon data={cogs} />
-				Skills
-			</div>
-			<ul>
-				<li class="skill">
-					<span class="skill-title">Jellyfish Hunting</span>
-					<div class="gauge">
-						<div class="bullet filled-bullet" />
-						<div class="bullet filled-bullet" />
-						<div class="bullet filled-bullet" />
-						<div class="bullet" />
-						<div class="bullet" />
-					</div>
-				</li>
-				<li class="skill">
-					<span class="skill-title">Whale Singing</span>
-					<div class="gauge">
-						<div class="bullet filled-bullet" />
-						<div class="bullet filled-bullet" />
-						<div class="bullet" />
-						<div class="bullet" />
-						<div class="bullet" />
-					</div>
-				</li>
-				<li class="skill">
-					<span class="skill-title">Burger Flipping</span>
-					<div class="gauge">
-						<div class="bullet filled-bullet" />
-						<div class="bullet filled-bullet" />
-						<div class="bullet filled-bullet" />
-						<div class="bullet filled-bullet" />
-						<div class="bullet filled-bullet" />
-					</div>
-				</li>
-			</ul>
+			<Section iconData={briefcase} title="Job Experience">
+				<ul>
+					<li>
+						<span>Burger Flipper (2017 - 2018)</span>
+						<span class="place">Krusty Wrab</span>
+					</li>
+					<li>
+						<span>Ministry of Defense (2018 - 2020)</span>
+						<span class="place">Chum Bucket</span>
+					</li>
+				</ul>
+			</Section>
+			<Section iconData={cogs} title="Skills">
+				<ul>
+					<li class="skill">
+						<span class="skill-title">Jellyfish Hunting</span>
+						<div class="gauge">
+							<div class="bullet filled-bullet" />
+							<div class="bullet filled-bullet" />
+							<div class="bullet filled-bullet" />
+							<div class="bullet" />
+							<div class="bullet" />
+						</div>
+					</li>
+					<li class="skill">
+						<span class="skill-title">Whale Singing</span>
+						<div class="gauge">
+							<div class="bullet filled-bullet" />
+							<div class="bullet filled-bullet" />
+							<div class="bullet" />
+							<div class="bullet" />
+							<div class="bullet" />
+						</div>
+					</li>
+					<li class="skill">
+						<span class="skill-title">Burger Flipping</span>
+						<div class="gauge">
+							<div class="bullet filled-bullet" />
+							<div class="bullet filled-bullet" />
+							<div class="bullet filled-bullet" />
+							<div class="bullet filled-bullet" />
+							<div class="bullet filled-bullet" />
+						</div>
+					</li>
+				</ul>
+			</Section>
 		</div>
 	</div>
 </div>
@@ -146,19 +139,6 @@
 		flex: 1;
 		padding: 0px 16px 16px 16px;
 		background-color: white;
-	}
-
-	.section-title {
-		background-color: #ffeb3b;
-		border-left: solid 4px #fbc02d;
-		padding: 8px 16px;
-		text-transform: UPPERCASE;
-		font-weight: 500;
-		margin: 16px 0px;
-		display: flex;
-		flex-direction: row;
-		align-items: center;
-		gap: 1rem;
 	}
 
 	.title-icon {
