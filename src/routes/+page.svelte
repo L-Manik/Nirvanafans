@@ -1,3 +1,11 @@
+<script lang="ts">
+	import Icon from "svelte-awesome";
+	import book from 'svelte-awesome/icons/book';
+	import user from 'svelte-awesome/icons/user';
+	import briefcase from 'svelte-awesome/icons/briefcase';
+	import cogs from "svelte-awesome/icons/cogs";
+</script>
+
 <!-- opening part -->
 <div class="readable-area">
 	<a class="header" href="./photo.html">
@@ -14,12 +22,12 @@
 	<div class="content">
 		<div class="content-column">
 			<div class="section-title">
-				<i class="fa-solid fa-user title-icon" />
+				<Icon data={user} />
 				Profile
 			</div>
 			<p>LOREM IPSUM</p>
 			<div class="section-title">
-				<i class="fa-solid fa-book title-icon" />
+				<Icon data={book} />
 				Education
 			</div>
 			<ul>
@@ -28,28 +36,28 @@
 					<span class="place">Bikini Bottom High School</span>
 				</li>
 				<li>
-					<span>2011 - 2014</span>
-					<span class="place">Bikini Bottom High School</span>
+					<span>2014 - 2016</span>
+					<span class="place">McGuy University</span>
 				</li>
 			</ul>
 		</div>
 		<div class="content-column">
 			<div class="section-title">
-				<i class="fa-solid fa-user title-icon" />
-				Education
+				<Icon data={briefcase} />
+				Job Experience
 			</div>
 			<ul>
 				<li>
-					<span>2011 - 2014</span>
-					<span class="place">Bikini Bottom High School</span>
+					<span>Burger Flipper (2017 - 2018)</span>
+					<span class="place">Krusty Krab</span>
 				</li>
 				<li>
-					<span>2011 - 2014</span>
-					<span class="place">Bikini Bottom High School</span>
+					<span>Ministry of Defense (2018 - 2020)</span>
+					<span class="place">Chum Bucket</span>
 				</li>
 			</ul>
 			<div class="section-title">
-				<i class="fa-solid fa-wand-sparkles title-icon" />
+				<Icon data={cogs} />
 				Skills
 			</div>
 			<ul>
@@ -147,6 +155,10 @@
 		text-transform: UPPERCASE;
 		font-weight: 500;
 		margin: 16px 0px;
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		gap: 1rem;
 	}
 
 	.title-icon {
