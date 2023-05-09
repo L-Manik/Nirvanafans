@@ -90,7 +90,8 @@
 		display: flex;
 		flex-direction: column;
 		background-color: #ffffff;
-		margin: 0 15%;
+		margin: 0 5%;
+		height: 100%;
 	}
     
 	.name {
@@ -112,7 +113,7 @@
 
 	.header {
 		display: flex;
-		flex-direction: row;
+		flex-direction: column-reverse;
 		padding: 16px;
 		justify-content: end;
 		align-items: center;
@@ -121,14 +122,14 @@
 	}
 
 	.header-text {
-		text-align: end;
+		text-align: center;
 		margin-right: 16px;
 	}
 
 	/* container */
 	.content {
 		display: grid;
-		grid-template-columns: repeat(2, minmax(0, 1fr));
+		grid-template-columns: repeat(1, minmax(0, 1fr));
 		gap: 2rem;
 		padding: 2rem;
 	}
@@ -178,21 +179,22 @@
 		margin-bottom: 4px;
 	}
 
-	@media (max-width: 600px) {
+	/* mobile first approach for future where there are more people using their phones */
+	@media (min-width: 600px) {
 		.readable-area {
-			margin: 0 5%;
+			margin: 0 20%;
 		}
 
 		.header {
-			flex-direction: column-reverse;
+			flex-direction: row;
 		}
 
 		.header-text {
-			text-align: center;
+			text-align: end;
 		}
 
 		.content {
-			grid-template-columns: repeat(1, minmax(0, 1fr))
+			grid-template-columns: repeat(2, minmax(0, 1fr))
 		}
 	}
 </style>
