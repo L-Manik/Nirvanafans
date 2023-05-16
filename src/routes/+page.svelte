@@ -9,7 +9,7 @@
 
 <!-- opening part -->
 <div class="readable-area">
-	<a class="header" href="./photo.html">
+	<a class="header" href="./testRoute">
 		<div class="header-text">
 			<h1 class="name">Squarepants, Spongebob</h1>
 			<p class="role">Head Chef</p>
@@ -132,10 +132,6 @@
 		grid-template-columns: repeat(1, minmax(0, 1fr));
 		gap: 2rem;
 		padding: 2rem;
-	}
-
-	.title-icon {
-		margin-right: 8px;
 	}
 
 	ul {
