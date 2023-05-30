@@ -4,7 +4,7 @@
 	import briefcase from 'svelte-awesome/icons/briefcase';
 	import cogs from "svelte-awesome/icons/cogs";
 	
-	import Section from "$components/Section.svelte";
+	import Section from "$components/Members.svelte";
 </script>
 
 <!-- opening part -->
