@@ -3,8 +3,7 @@
 	import user from 'svelte-awesome/icons/user';
 	import briefcase from 'svelte-awesome/icons/briefcase';
 	import cogs from "svelte-awesome/icons/cogs";
-	
-	import Section from "$components/Members.svelte";
+	import Section from "$components/Section.svelte";
 </script>
 
 <!-- opening part -->
