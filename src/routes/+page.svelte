@@ -26,13 +26,36 @@
 			<a href="/albumsRoute" class="redirects">Merch</a>
 		</div>
 	</div>
-	<div class="slideshow">
-		<img
-			src="https://consequence.net/wp-content/uploads/2019/07/nirvana-live-loud-vinyl-streaming-release.png"
-			alt="livephoto1"
-			class="livephoto"
-		/>
+	<div id="slider">
+		<figure>
+			<img
+				src="https://consequence.net/wp-content/uploads/2019/07/nirvana-live-loud-vinyl-streaming-release.png"
+				alt="livephoto1"
+				class="livephoto"
+			/>
+			<img
+				src="https://www.rockbizz.com.br/wp-content/uploads/2016/04/Nirvana-830x400.jpg"
+				alt="livephoto1"
+				class="livephoto"
+			/>
+			<img
+				src="https://thumb.viva.co.id/media/frontend/thumbs3/2020/10/10/5f80ea0e21f05-viva-militer-sersan-satu-jason-everman-tengah-bersama-nirvana_1265_711.jpg"
+				alt="livephoto1"
+				class="livephoto"
+			/>
+			<img
+				src="https://i.ytimg.com/vi/RLJLq8nqFsA/maxresdefault.jpg"
+				alt="livephoto1"
+				class="livephoto"
+			/>
+			<img
+				src="https://consequence.net/wp-content/uploads/2019/07/nirvana-live-loud-vinyl-streaming-release.png"
+				alt="livephoto1"
+				class="livephoto"
+			/>
+		</figure>
 	</div>
+
 </div>
 
 <style>
@@ -79,8 +102,52 @@
 	.livephoto {
 		display: flex;
 		justify-content: center;
-		margin-top: 3rem;
 		width: 100vw;
+	}
+
+	#slider {
+		overflow: hidden;
+		background-color: black;
+	}
+	#slider figure {
+		position: relative;
+		width: 500%;
+		margin: 0%;
+		left: 0%;
+		animation: 10s slider infinite;
+	}
+	#slider figure img {
+		float: left;
+		width: 20%;
+	}
+	@keyframes slider {
+		0% {
+			left: 0;
+		}
+		20% {
+			left: 0;
+		}
+		25% {
+			left: -100%;
+		}
+		45% {
+			left: -100%;
+		}
+		50% {
+			left: -200%;
+		}
+		70% {
+			left: -200%;
+		}
+		75% {
+			left: -300%;
+		}
+		95% {
+			left: -300%;
+		}
+		100% {
+			left: -400%;
+		}
 	}
 
 	@media (max-width: 768px) {
