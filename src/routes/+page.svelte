@@ -21,12 +21,14 @@
 		</div>
 		<div class="more" />
 		<a href="/membersRoute"class="redirects">Members</a>
-		<div class="redirects">Albums</div>
+		<div class="redirects">
+			<p class="redirectdesc">Albums</p>
+		</div>
 		<div class="redirects">Merch</div>
 	</div>
 	<div class="slideshow">
 		<img
-			src="https://cdn.fansshare.com/images/nirvana/nirvana-live-1337557331.jpg"
+			src="https://consequence.net/wp-content/uploads/2019/07/nirvana-live-loud-vinyl-streaming-release.png"
 			alt="livephoto1"
 			class="livephoto"
 		/>
@@ -42,6 +44,7 @@
 		display: flex;
 		flex-direction: columns;
 		margin-right: 2rem;
+		margin-top: 1rem;
 	}
 
 	.logo {
@@ -50,7 +53,12 @@
 	}
 
 	.brandlogo {
-		max-width: 100px;
+		max-width: 130px;
+		border: 5px solid black;
+		padding-left: 10px;
+		padding-right: 10px;
+		border-radius: 100px;
+		background-color: black;
 	}
 
 	.more {
