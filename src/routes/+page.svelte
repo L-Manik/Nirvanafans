@@ -19,12 +19,12 @@
 				class="brandlogo"
 			/>
 		</div>
-		<div class="more" />
-		<a href="/membersRoute"class="redirects">Members</a>
-		<div class="redirects">
-			<p class="redirectdesc">Albums</p>
+
+		<div class="links">
+			<a href="/membersRoute" class="redirects">Members</a>
+			<a href="/albumsRoute" class="redirects">Albums</a>
+			<a href="/albumsRoute" class="redirects">Merch</a>
 		</div>
-		<div class="redirects">Merch</div>
 	</div>
 	<div class="slideshow">
 		<img
@@ -61,24 +61,25 @@
 		background-color: black;
 	}
 
-	.more {
-		display: flex;
-		flex-direction: columns;
+	.links {
+		margin-top: 1rem;
 	}
 
 	.redirects {
 		margin: 1rem 1rem;
+		margin-top: 1rem;
+		padding-bottom: 8px;
 	}
 
 	.redirects:hover {
 		border-bottom: solid 3px white;
-        transform:scale(1.1)
+		transform: scale(1.1);
 	}
 
-    .livephoto {
-        display:flex;
-        justify-content: center;
-        margin-top: 3rem;
+	.livephoto {
+		display: flex;
+		justify-content: center;
+		margin-top: 3rem;
 		width: 100vw;
-    }
+	}
 </style>
