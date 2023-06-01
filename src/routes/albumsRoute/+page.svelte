@@ -109,6 +109,8 @@
 		max-width: 960px;
 		width: 95%;
 		margin: 20px auto;
+        background-color: black;
+        border-radius: 3rem;
 	}
 
 	p {
@@ -153,5 +155,6 @@
 	.album:nth-child(3) {
 		border: #fdfbe6 solid 5px;
 		background-color: #6b2b06  ;
+        margin-bottom: 2rem;
 	}
 </style>
