@@ -82,4 +82,13 @@
 		margin-top: 3rem;
 		width: 100vw;
 	}
+
+	@media (max-width: 768px) {
+		.header {
+			display: flex;
+			flex-direction: row;
+			margin-right: 2rem;
+			margin-top: 1rem;
+		}
+	}
 </style>
