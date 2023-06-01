@@ -59,7 +59,7 @@
 			</div>
 		</Members>
 	</div>
-	<a href='/'>Return</a>
+	<a href="/">Return</a>
 </div>
 
 <style>
@@ -106,4 +106,13 @@
 		margin-bottom: 16px;
 	}
 
+	@media (max-width: 768px) {
+		.columns {
+			display: flex;
+			flex-flow: column;
+			justify-content: center;
+			margin: 5px 0;
+			gap: 16px;
+		}
+	}
 </style>
