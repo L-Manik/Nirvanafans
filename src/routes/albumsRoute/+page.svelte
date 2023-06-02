@@ -11,6 +11,7 @@
 	<div class="title">
 		<header>
 			<h1>Studio Albums Released by Nirvana</h1>
+			<a class="backbutton" href="/">Return</a>
 		</header>
 	</div>
 
@@ -100,7 +101,6 @@
 				/>
 			</div>
 		</div>
-		<a class ="backbutton" href="/">Return</a>
 	</div>
 </div>
 
@@ -110,8 +110,8 @@
 		max-width: 960px;
 		width: 95%;
 		margin: 20px auto;
-        background-color: black;
-        border-radius: 3rem;
+		background-color: black;
+		border-radius: 3rem;
 	}
 
 	p {
@@ -155,14 +155,28 @@
 
 	.album:nth-child(3) {
 		border: #fdfbe6 solid 5px;
-		background-color: #6b2b06  ;
-        margin-bottom: 0.5rem;
+		background-color: #6b2b06;
+		margin-bottom: 0.5rem;
 	}
 
-	
 	.backbutton {
-		margin-left: 2rem;
 		margin-bottom: 3rem;
 	}
 
+	@media (max-width: 768px) {
+		.title {
+			text-align: center;
+		}
+
+		.backbutton {
+			text-align: center;
+		}
+
+		.info {
+			display: flex;
+			flex-direction: column;
+			flex: 1;
+			text-align: center;
+		}
+	}
 </style>

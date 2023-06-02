@@ -34,7 +34,7 @@
 				class="livephoto"
 			/>
 			<img
-				src="https://www.rockbizz.com.br/wp-content/uploads/2016/04/Nirvana-830x400.jpg"
+				src="https://m.media-amazon.com/images/M/MV5BMmMwZWQ5MGItYmY5My00NzU3LWIzZjMtNWU2ZDZkZjY3ZGJhXkEyXkFqcGdeQXVyMjUyNDk2ODc@._V1_.jpg"
 				alt="livephoto1"
 				class="livephoto"
 			/>
@@ -55,7 +55,7 @@
 			/>
 		</figure>
 	</div>
-
+	
 </div>
 
 <style>
