@@ -7,26 +7,50 @@
 		/>
 		<h1>Merchandise</h1>
 	</div>
-	<div class="merchlist">
-        <div class="merch">
-            <img src="//cdn.shopify.com/s/files/1/2081/4611/products/NIRBLUESWEATSHIRT_300x.png?v=1632377629">
-        </div>
-        <div class="merch">
-            
-        </div>
-        <div class="merch">
-            
-        </div>
-        <div class="merch">
-            
-        </div>
-    </div>
+
+	<div class="content">
+		<div class="merchlist">
+			<div class="merch">
+                <img src="https://cdn.shopify.com/s/files/1/2081/4611/products/NIRGRITHOODIE.png?v=1632378406" alt="hoodie">
+                <p>Gritty Nevermind Hoodie</p>
+            </div> 
+            <div class="merch">
+                <img src="https://cdn.shopify.com/s/files/1/2081/4611/products/NIRGRITHOODIE.png?v=1632378406" alt="hoodie">
+                <p>Gritty Nevermind Hoodie</p>
+            </div> 
+            <div class="merch">
+                <img src="https://cdn.shopify.com/s/files/1/2081/4611/products/NIRGRITHOODIE.png?v=1632378406" alt="hoodie">
+                <p>Gritty Nevermind Hoodie</p>
+            </div> 
+            <div class="merch">
+                <img src="https://cdn.shopify.com/s/files/1/2081/4611/products/NIRGRITHOODIE.png?v=1632378406" alt="hoodie">
+                <p>Gritty Nevermind Hoodie</p>
+            </div> 
+            <div class="merch">
+                <img src="https://cdn.shopify.com/s/files/1/2081/4611/products/NIRGRITHOODIE.png?v=1632378406" alt="hoodie">
+                <p>Gritty Nevermind Hoodie</p>
+            </div> 
+            <div class="merch">
+                <img src="https://cdn.shopify.com/s/files/1/2081/4611/products/NIRGRITHOODIE.png?v=1632378406" alt="hoodie">
+                <p>Gritty Nevermind Hoodie</p>
+            </div> 
+            <div class="merch">
+                <img src="https://cdn.shopify.com/s/files/1/2081/4611/products/NIRGRITHOODIE.png?v=1632378406" alt="hoodie">
+                <p>Gritty Nevermind Hoodie</p>
+            </div> 
+            <div class="merch">
+                <img src="https://cdn.shopify.com/s/files/1/2081/4611/products/NIRGRITHOODIE.png?v=1632378406" alt="hoodie">
+                <p>Gritty Nevermind Hoodie</p>
+            </div> 
+		</div>
+	</div>
 </div>
 
 <style>
 	.readable-area {
 		display: flex;
 		flex-direction: column;
+		backdrop-filter: blur(110px);
 	}
 
 	.header {
@@ -48,14 +72,31 @@
 		margin-bottom: 1rem;
 	}
 
-	.merchlist {
-        flex: 1;
-        display: flex;
-        flex-direction: column;
+	.content {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-evenly;
 	}
 
-    .merch {
-        height: 100px;
-        width: 100px;
+	.merchlist {
+		padding: 1em;
+		border: 5px grey solid;
+		display: flex;
+		flex-direction: row;
+        flex-wrap: wrap;
+	}
+
+	.merch {
+        margin: 1rem;
+        text-align: center;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+		border: 5px #000000 solid;
+		border-radius: 15px;
+	}
+
+    .merch img {
+        max-width: 320px;
+		margin-bottom: 1rem;
+		margin-top: 1rem;
     }
 </style>
