@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "nirvanafansclub",
+    "public": "build",
     "ignore": [
       "firebase.json",
       "**/.*",

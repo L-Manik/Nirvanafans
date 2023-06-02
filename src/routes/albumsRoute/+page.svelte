@@ -100,6 +100,7 @@
 				/>
 			</div>
 		</div>
+		<a class ="backbutton" href="/">Return</a>
 	</div>
 </div>
 
@@ -155,6 +156,13 @@
 	.album:nth-child(3) {
 		border: #fdfbe6 solid 5px;
 		background-color: #6b2b06  ;
-        margin-bottom: 2rem;
+        margin-bottom: 0.5rem;
 	}
+
+	
+	.backbutton {
+		margin-left: 2rem;
+		margin-bottom: 3rem;
+	}
+
 </style>

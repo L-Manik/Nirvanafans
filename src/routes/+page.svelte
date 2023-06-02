@@ -23,7 +23,7 @@
 		<div class="links">
 			<a href="/membersRoute" class="redirects">Members</a>
 			<a href="/albumsRoute" class="redirects">Albums</a>
-			<a href="/albumsRoute" class="redirects">Merch</a>
+			<a href="/merchRoute" class="redirects">Merch</a>
 		</div>
 	</div>
 	<div id="slider">
