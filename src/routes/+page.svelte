@@ -55,12 +55,83 @@
 			/>
 		</figure>
 	</div>
-	
+	<div class="moreinfo">
+		<div class="timeline">
+			<div class="container left">
+				<span class="dot-left" />
+				<div class="text-box">
+					<h2>Formation and Early Years</h2>
+					<small
+						>Nirvana was formed in 1987 in Aberdeen, Washington, by lead vocalist and guitarist Kurt
+						Cobain and bassist Krist Novoselic. They went through several drummers before finally
+						settling with Dave Grohl in 1990. The band quickly gained a reputation for their
+						energetic live performances and distinctive sound, combining elements of punk, rock, and
+						pop.</small
+					>
+				</div>
+			</div>
+			<div class="container right">
+				<span class="dot" />
+				<div class="text-box">
+					<h2>Breakthrough with "Smells Like Teen Spirit"</h2>
+					<small
+						>In 1991, Nirvana released their second studio album, "Nevermind," which included the
+						iconic single "Smells Like Teen Spirit." The song became an anthem for a disenchanted
+						generation and propelled the album to immense commercial success. "Nevermind" topped
+						charts worldwide and thrust Nirvana into the mainstream, marking the rise of the grunge
+						movement and solidifying their status as one of the most important bands of the era.</small
+					>
+				</div>
+			</div>
+			<div class="container left">
+				<span class="dot-left" />
+				<div class="text-box">
+					<h2>Follow-up Album "In Utero" and Tensions</h2>
+					<small
+						>Nirvana's third studio album, "In Utero," was released in 1993. It showcased a more raw
+						and introspective side of the band's music. While critically acclaimed, tensions within
+						the band began to surface. Kurt Cobain's struggles with drug addiction and his unease
+						with fame added strain to the group's dynamics, but they embarked on a successful tour
+						to support the album.</small
+					>
+				</div>
+			</div>
+			<div class="container right">
+				<span class="dot" />
+				<div class="text-box">
+					<h2>Kurt Cobain's Tragic Suicide</h2>
+					<small
+						>On April 5, 1994, Kurt Cobain was found dead at his home in Seattle, Washington, having
+						taken his own life. His death sent shockwaves through the music world and left fans
+						devastated. Cobain's suicide marked the tragic end of Nirvana and left an irreplaceable
+						void in the music industry. His profound influence as a songwriter and his troubled life
+						have continued to captivate audiences even after his passing.</small
+					>
+				</div>
+			</div>
+			<div class="container left">
+				<span class="dot-left" />
+				<div class="text-box">
+					<h2>Legacy and Cultural Impact</h2>
+					<small
+						>Despite their short-lived career, Nirvana's impact on music and popular culture cannot
+						be overstated. Their music encapsulated the frustration and disillusionment of a
+						generation, inspiring countless bands and shaping the alternative rock genre. Nirvana's
+						discography, including iconic albums like "Nevermind" and "In Utero," remains widely
+						celebrated. The band's cultural significance endures, as they are often credited with
+						reshaping the trajectory of rock music in the early 1990s and leaving an indelible mark
+						on the music industry.</small
+					>
+				</div>
+			</div>
+		</div>
+	</div>
 </div>
 
 <style>
 	.wrapper {
 		overflow-x: hidden;
+		backdrop-filter: blur(50px);
 	}
 
 	.header {
@@ -150,12 +221,108 @@
 		}
 	}
 
+	.moreinfo {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+
+	.timeline {
+		position: relative;
+		max-width: 1200px;
+		margin: 100px auto;
+	}
+
+	.container {
+		padding: 10px 50px;
+		position: relative;
+		width: 50%;
+	}
+
+	.left {
+		left: 50%;
+	}
+
+	.dot-left {
+		height: 40px;
+		width: 40px;
+		background-color: #000000;
+		border-radius: 50%;
+		display: inline-block;
+		position: absolute;
+		right: -20px;
+		top: 32px;
+		z-index: 10;
+		left: -20px;
+	}
+
+	.text-box {
+		padding: 20px 30px;
+		background: #1c1d3c;
+		position: relative;
+		border-radius: 10px;
+	}
+
+	.dot {
+		height: 40px;
+		width: 40px;
+		background-color: #000000;
+		border-radius: 50%;
+		display: inline-block;
+		position: absolute;
+		right: -20px;
+		top: 32px;
+		z-index: 10;
+	}
+
+	.timeline::after {
+		content: '';
+		position: absolute;
+		width: 6px;
+		height: 100%;
+		background: #000000;
+		top: 0;
+		left: 50%;
+		margin-left: -3px;
+		z-index: -1;
+	}
+
 	@media (max-width: 768px) {
 		.header {
 			display: flex;
 			flex-direction: row;
 			margin-right: 2rem;
 			margin-top: 1rem;
+		}
+
+		.timeline {
+			margin: 50px auto;
+		}
+
+		.timeline::after {
+			left: 31px;
+		}
+
+		.container {
+			width: 100%;
+			padding-left: 80px;
+			padding-right: 25px;
+		}
+
+		.text-box {
+			font-size: 13px;
+		}
+
+		.text-box small {
+			margin-bottom: 10px;
+		}
+
+		.left {
+			left: 0;
+		}
+
+		.dot, .dot-left {
+			left: 10px;
 		}
 	}
 </style>

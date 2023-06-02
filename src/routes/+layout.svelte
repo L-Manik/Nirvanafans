@@ -24,19 +24,7 @@
 		width: 100%;
 		height: 100%;
 		/*background: repeating-linear-gradient(#101223, #09104d);*/
-		background-image: radial-gradient(
-			circle at top right,
-			#101223 0%,
-			#101223 48%,
-			#090f4b 48%,
-			#090f4b 53%,
-			#030c5f 53%,
-			#030c5f 56%,
-			#030c5f 56%,
-			#020f87 69%,
-			#020f87 69%,
-			#020f87 100%
-		);
+		background-image: linear-gradient(90deg, rgb(22, 25, 80), rgb(24, 34, 250));
 	}
 	:global(a) {
 		text-decoration: none;
