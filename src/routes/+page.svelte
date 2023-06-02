@@ -316,8 +316,21 @@
 			margin-top: 1rem;
 		}
 
+		.header {
+			display:flex;
+			flex-direction: column;
+		}
+
+		.brandlogo {
+			max-width: 240px;
+			border-radius: 15px;
+		}
+
 		.links {
-			display: column;
+			display:flex;
+			flex-direction: column;
+			text-align: center;
+			margin-top: 1px;
 		}
 
 		.timeline {
