@@ -11,6 +11,7 @@
 	<div class="title">
 		<header>
 			<h1>Meet the Members of Nirvana!</h1>
+			<a href="/" class="backbutton">Return</a>
 		</header>
 	</div>
 	<div class="columns">
@@ -36,11 +37,11 @@
 			/>
 			<div class="members-info">
 				<p>
-					Krist Anthony Novoselic (Croatian: Krist Novoselić; born May 16, 1965) is an American
-					musician and political activist, and was the bassist and founding member of the grunge
-					band Nirvana alongside guitarist and lead singer Kurt Cobain.[1][2] Nirvana achieved
-					massive success, earning multiple gold and platinum awards and touring around the world at
-					sold-out shows.[3]
+					Krist Novoselic, born in 1965, is the acclaimed bassist of Nirvana, helping shape their
+					sound and pioneering the grunge movement alongside Kurt Cobain. Following Cobain's tragic
+					death in 1994, Novoselic pursued various musical projects while maintaining a strong
+					connection to Nirvana's legacy. His enduring impact in the alternative rock scene of the
+					1990s continues to be widely recognized.
 				</p>
 			</div>
 		</Members>
@@ -59,7 +60,6 @@
 			</div>
 		</Members>
 	</div>
-	<a href="/">Return</a>
 </div>
 
 <style>
@@ -104,6 +104,10 @@
 		margin-right: auto;
 		margin-top: 16px;
 		margin-bottom: 16px;
+	}
+
+	.backbutton:hover{
+		border-bottom: white solid 2px;
 	}
 
 	@media (max-width: 768px) {

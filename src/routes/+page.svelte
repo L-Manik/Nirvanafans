@@ -57,6 +57,9 @@
 	</div>
 	<div class="moreinfo">
 		<div class="timeline">
+			<div class="title">
+				<h1>History of Nirvana</h1>
+			</div>
 			<div class="container left">
 				<span class="dot-left" />
 				<div class="text-box">
@@ -124,6 +127,7 @@
 					>
 				</div>
 			</div>
+			<div class="end" />
 		</div>
 	</div>
 </div>
@@ -162,7 +166,10 @@
 	.redirects {
 		margin: 1rem 1rem;
 		margin-top: 1rem;
-		padding-bottom: 8px;
+		padding: 8px;
+		background-color: rgba(0, 0, 0, 0.5);
+		border-radius: 10px;
+		transition: 0.005s;
 	}
 
 	.redirects:hover {
@@ -225,6 +232,20 @@
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
+	}
+
+	.title {
+		background-color: #000000;
+		padding: 2rem;
+		border-radius: 15px;
+		text-align: center;
+	}
+
+	.end {
+		background-color: #000000;
+		padding: 0.5rem;
+		border-radius: 15px;
+		text-align: center;
 	}
 
 	.timeline {
@@ -295,6 +316,10 @@
 			margin-top: 1rem;
 		}
 
+		.links {
+			display: column;
+		}
+
 		.timeline {
 			margin: 50px auto;
 		}
@@ -321,7 +346,8 @@
 			left: 0;
 		}
 
-		.dot, .dot-left {
+		.dot,
+		.dot-left {
 			left: 10px;
 		}
 	}
