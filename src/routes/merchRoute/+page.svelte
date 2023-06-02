@@ -12,28 +12,28 @@
 	<div class="content">
 		<div class="merchlist">
 			<div class="merch">
-                <p>Gritty Nevermind Hoodie</p>
+				<a href="https://shop.nirvana.com/products/gritty-nevermind-hoodie?_pos=1&_sid=29c2c8a64&_ss=r">Gritty Nevermind Hoodie</a>
+			</div>
+			<div class="merch">
+                <a href="https://shop.nirvana.com/products/drain-you-crewneck-sweatshirt?_pos=1&_sid=f8d6d8862&_ss=r">Drain You Crewneck Sweatshirt</a>
             </div> 
 			<div class="merch">
-                <p>Drain You Crewneck Sweatshirt</p>
+                <a href="https://shop.nirvana.com/products/abstract-water-crewneck-sweatshirt?_pos=1&_sid=f7540b8df&_ss=r&variant=39439593570393">Abstract Water Crewneck Sweatshirt</a>
             </div> 
 			<div class="merch">
-                <p>Abstract Water Crewneck Sweatshirt</p>
+                <a href="https://shop.nirvana.com/products/drain-you-zip-hoodie?_pos=1&_sid=00edbaaba&_ss=r">Drain You Zip Hoodie</a>
             </div> 
 			<div class="merch">
-                <p>Drain You Zip Hoodie</p>
+                <a href="https://shop.nirvana.com/products/dim-light-portrait-tee?_pos=1&_sid=e8fae3711&_ss=r">Dim Light Portrait Tee</a>
             </div> 
 			<div class="merch">
-                <p>Dim Light Portrait Tee</p>
+				<a href="https://shop.nirvana.com/products/so-happy-tee?_pos=1&_sid=6404a9383&_ss=r">I'm So Happy Smiley Tee</a>
             </div> 
 			<div class="merch">
-                <p>I'm So Happy Smiley Tee</p>
+                <a href="https://shop.nirvana.com/products/live-at-reading-black-tee?_pos=1&_sid=8292b576e&_ss=r">Live at Reading Black Tee</a>
             </div> 
 			<div class="merch">
-                <p>GLive at Reading Black Tee</p>
-            </div> 
-			<div class="merch">
-                <p>Sliver Tee - White</p>
+                <a href="https://shop.nirvana.com/products/sliver-white-tee?_pos=1&_sid=0db5b9cdf&_ss=r">Sliver Tee - White</a>
             </div> 
 
 		</div>
