@@ -6,6 +6,8 @@
 	import user from 'svelte-awesome/icons/user';
 </script>
 
+<title>Nirvana Fans Club</title>
+
 <head>
 	<meta charset="utf-8" />
 </head>

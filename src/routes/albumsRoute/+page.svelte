@@ -7,6 +7,10 @@
 	import Members from '$lib/components/Members.svelte';
 </script>
 
+<svelte:head>
+	<title>Nirvana Discography</title>
+</svelte:head>
+
 <div class="readable-area">
 	<div class="title">
 		<header>

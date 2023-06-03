@@ -1,3 +1,7 @@
+<svelte:head>
+	<title>Nirvana Merchandise</title>
+</svelte:head>
+
 <div class="readable-area">
 	<div class="header">
 		<img
